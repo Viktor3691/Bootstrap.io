@@ -1,5 +1,27 @@
 {
   "extends": [
     "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "text-align: -webkit-match-parent",
+          "-webkit-overflow-scrolling"
+        ]
+      }
+    ]
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_chr <= 142",
+    "not chrome <= 142",
+    "not edge <= 142",
+    "not firefox <= 145",
+    "not safari <= 26.1",
+    "not samsung <= 29",
+    "not ios_saf <= 26"
   ]
 }

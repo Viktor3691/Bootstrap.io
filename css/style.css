@@ -1,34 +1,40 @@
 :root {
-  --color1: #05b1b1;
-  --color2: #52339a;
-  --color3: #eee;
+  --color11: #05b1b1;
+  --color12: #52339a;
+  --color13: #eee;
+  --color14: url(../imges/pattern.png),
+    linear-gradient(to left, var(--color1) 0%, var(--color2) 100%);
 }
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 header {
-  padding: 200px 0;
+  padding: 50px 0;
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+  margin-bottom: var(--gap);
+  color: #fff;
 }
 header,
 footer {
-  background: url(../img/pattern.png), var(--color1);
-  background: url(../img/pattern.png),
-    linear-gradient(to left, var(--color1) 0%, var(--color2) 100%);
+  background: url(../imges/pattern.png), var(--color11);
+  background: url(../imges/pattern.png),
+    linear-gradient(to left, var(--color11) 0%, var(--color12) 100%);
   background-size: contain;
 }
 .container-fluid {
   text-align: center;
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 300;
   color: #fff;
 }
 
 header .container-fluid {
-  background-color: #00b0f0;
+  background-color: var(--color14);
 }
 
 .a {
-  background-color: #7030a0;
+  background-color: var(--color11);
 }
 
 .b {
@@ -79,4 +85,28 @@ footer .container-fluid {
 
 .b4 {
   background-color: rgba(255, 255, 255, 0);
+}
+.f {
+  background-color: var(--color4);
+}
+
+.logo {
+  float: left;
+  margin: 0 20px;
+  width: 20%;
+}
+nav {
+  float: right;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block; /*один из способов разместить элементы в строку*/
+}
+nav a {
+  text-decoration: none;
+  line-height: 38px;
 }

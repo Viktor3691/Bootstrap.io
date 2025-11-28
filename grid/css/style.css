@@ -1,37 +1,23 @@
 :root {
   --gutter: 20px;
   --bg: #5b9c5a;
-  --color2: #5af7bb;
-  --color3: #16d8fa;
-  --color4: #2124ee;
 }
-*,
-*:before,
-*:after {
+*, *:before, *:after {
   box-sizing: inherit;
 }
 html {
   box-sizing: border-box;
   font-size: 18px;
 }
-body,
-p,
-h1,
-h2,
-h3,
-ul,
-ol {
+body,p,h1,h2,h3,ul,ol {
   margin: 0;
   padding: 0;
 }
-.header,
-.footer {
-  background: url(../imges/pattern.png), var(--color3);
-  background: url(../imges/pattern.png),
-    linear-gradient(to left, var(--color3) 0%, var(--color4) 100%);
-  background-size: contain;
+.header {
+  background-color: var(--bg);
 }
 .container {
+  background-color: #eee;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
@@ -43,7 +29,8 @@ ol {
 .row > div {
   padding: 15px;
   margin: 0 auto;
-  border: 1px solid gray;
+  background-color: wheat;
+  border: 1px solid gray
 }
 .col-1 {
   width: calc(8.3% - var(--gutter));
@@ -79,18 +66,5 @@ ol {
   width: calc(91.66% - var(--gutter));
 }
 .col-12 {
-  width: calc(100% - var(--gutter));
-}
-.a {
-  background-color: var(--color2);
-}
-.b {
-  background-color: var(--color3);
-}
-.c {
-  background-color: var(--color4);
-}
-
-.logo {
   width: calc(100% - var(--gutter));
 }

@@ -5,46 +5,25 @@
   --color3: #16d8fa;
   --color4: #2124ee;
 }
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
+
+section {
+  padding: 50px 0;
 }
-html {
-  box-sizing: border-box;
-  font-size: 18px;
+
+header {
+  padding: 50px 0;
 }
-body,
-p,
-h1,
-h2,
-h3,
-ul,
-ol {
-  margin: 0;
-  padding: 0;
-}
-.header,
-.footer {
+
+header,
+footer {
+  max-width: 1200px;
+  margin: 0 auto;
   background: url(../imges/pattern.png), var(--color3);
   background: url(../imges/pattern.png),
     linear-gradient(to left, var(--color3) 0%, var(--color4) 100%);
   background-size: contain;
 }
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-.row > div {
-  padding: 15px;
-  margin: 0 auto;
-  border: 1px solid gray;
-}
+
 .col-1 {
   width: calc(8.3% - var(--gutter));
 }
@@ -89,8 +68,4 @@ ol {
 }
 .c {
   background-color: var(--color4);
-}
-
-.logo {
-  width: calc(100% - var(--gutter));
 }

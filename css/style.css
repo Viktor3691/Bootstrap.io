@@ -7,21 +7,32 @@
 }
 
 section {
-  padding: 50px 0;
-}
-
-header {
-  padding: 50px 0;
-}
-
-header,
-footer {
+  padding: 50px 50px;
   max-width: 1200px;
   margin: 0 auto;
   background: url(../imges/pattern.png), var(--color3);
   background: url(../imges/pattern.png),
     linear-gradient(to left, var(--color3) 0%, var(--color4) 100%);
   background-size: contain;
+}
+.color2 {
+  color: var(--color2);
+}
+.color3 {
+  color: var(--color3);
+}
+.color4 {
+  color: var(--color4);
+}
+
+.bg2 {
+  background-color: var(--color2);
+}
+.bg3 {
+  background-color: var(--color3);
+}
+.bg4 {
+  background-color: var(--color4);
 }
 
 .col-1 {

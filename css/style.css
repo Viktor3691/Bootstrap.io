@@ -172,3 +172,6 @@ kbd {
 .main1 {
   background-color: var(--colorMain1);
 }
+.footer {
+  color: #dcdcdc;
+}

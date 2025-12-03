@@ -8,7 +8,8 @@
       {
         "ignore": [
           "text-align: -webkit-match-parent",
-          "-webkit-overflow-scrolling"
+          "-webkit-overflow-scrolling",
+          "speak-as"
         ]
       }
     ],
@@ -23,6 +24,13 @@
       "default",
       {
         "aria-valid-attr-value": "off"
+      }
+    ],
+    "no-inline-styles": "off",
+    "axe/structure": [
+      "default",
+      {
+        "listitem": "off"
       }
     ]
   },

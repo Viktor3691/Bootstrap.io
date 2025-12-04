@@ -1,0 +1,319 @@
+<!-- Page Content-->
+
+<section>
+    <!-- Шапка -->
+    <header>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-2 col-lg-4 col-md-6 col-sm-12">
+                    <a href="index.html">
+                        <img src="imges/logo.svg" alt="логотип сайта" class="pictures">
+                    </a>
+                </div>
+
+                <div class="col">
+                    <h4 class="text-center  text-white ">Курс Stepik. <br>Bootstrap</h4>
+                </div>
+
+                <div class="col-3 col-lg-4 col-md-6 col-sm-12">
+                    <nav>
+                        <ul>
+                            <li><a href="">Главная</a></li>
+                            <li><a href="">О нас</a></li>
+                            <li><a href="">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+</section>
+
+
+<section>
+    <main>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-3 col-lg-4 col-md-6 col-sm-12 c">
+                    <aside class="sidebar">
+                        <h3 id="Content" style="padding: 10%;">Содержание</h3>
+                        <ol>
+                            <li><a href="#title1">Что такое Bootstrap и как он упрощает вёрстку?</a></li>
+                            <li><a href="#title2">Как работает Bootstrap?</a></li>
+                            <li><a href="#title3">Из чего состоит Bootstrap?</a></li>
+                            <li><a href="#title4">С чего начать изучение Bootstrap?</a></li>
+                            <li><a href="#title5">#</a></li>
+                        </ol>
+
+
+
+                    </aside>
+                </div>
+
+                <div class="col-9 col-lg-4 col-md-6 col-sm-12 main1">
+
+
+                    <h2>1. Основы Bootstrap</h2>
+                    <p><a href="https://itchief.ru/bootstrap" target="_blank" rel="noopener noreferrer">Bootstrap
+                            5</a> – это универсальный и мощный инструмент, предназначенный для быстрого создания
+                        адаптивных веб-интерфейсов. <br>
+                        <br>
+                        Библиотека предлагает готовую систему сеток, разнообразные компоненты и плагины на
+                        JavaScript. Также доступна
+                        возможность глубокой настройки Bootstrap с использованием Sass.
+                    </p>
+
+                    <h3 id="title1">Что такое Bootstrap и как он упрощает вёрстку?</h3>
+
+                    <img src="imges/1.png" alt="1" class="pictures">
+
+                    <p>Bootstrap позволяет очень быстро создавать сайты любого типа благодаря широкому набору
+                        готовых классов и компонентов. Вы
+                        буквально «складываете» дизайн из готовых блоков, что значительно ускоряет разработку.
+                        Однако такой подход также может
+                        приводить к тому, что многие Bootstrap-сайты выглядят схоже. Несмотря на это, фреймворк
+                        остаётся незаменимым
+                        инструментом для фронтенд-разработки, особенно при создании интерфейсов и админ-панелей.</p>
+
+                    <li><a href="#Content">&lt;&lt;&lt;Содержание</a></li>
+                    <br>
+
+                    <h4 id="title2">Как работает Bootstrap?</h4>
+
+                    <p>Bootstrap представляет собой набор CSS и JavaScript файлов, которые достаточно подключить к
+                        странице. После подключения
+                        вам становятся доступны следующие возможности:</p>
+                    <ol>
+                        <li>колоночная система (сетка Bootstrap);</li>
+                        <li>готовые классы для стилизации базового контента (текста, изображений, кода, таблиц и
+                            элементов &lt;figure&gt;);</li>
+                        <li>библиотека компонентов (кнопки, формы, навигационные панели, слайдеры, выпадающие
+                            списки, аккордеоны, модальные окна,
+                            всплывающие подсказки и др.);</li>
+                        <li>утилитные классы для управления отступами, выравниванием, видимостью элементов и другими
+                            часто используемыми задачами.</li>
+                    </ol>
+
+                    <p>Примеры использования</p>
+                    <p><strong>1. Создание кнопки. </strong>Чтобы создать кнопку с помощью <span>Bootstrap,</span>
+                        достаточно добавить несколько классов к ссылке или
+                        элементу &lt;button&gt;:</p>
+
+                    <div class="ramka"> HTML
+                        <br>
+                        <br>
+                        &lt;!-- Чтобы сделать ссылку в виде кнопки, добавьте классы: btn и btn-success --&gt;<br>
+                        &lt;<span class="spanR">a href="#" class="btn btn-success"</span>&gt;Ссылка, оформленная в
+                        виде кнопки</a>
+                        <br>
+                    </div>
+                    <p>Всего несколько секунд, и кнопка готова.</p>
+
+                    <a href="#" class="btn btn-success">Ссылка, оформленная в виде кнопки</a><br>
+                    <br>
+                    <p><strong>2. Создание вкладок.</strong> Для создания вкладок достаточно использовать готовый
+                        HTML-фрагмент и отредактировать его в
+                        соответствии с вашими потребностями. Пример для Bootstrap 5:</p>
+
+                    <div class="ramka"> HTML
+                        <br>
+                        <br>
+
+                        &lt;!-- Bootstrap 5 --&gt;<br>
+                        &lt;nav&gt;<br>
+                        &lt;div class="nav nav-tabs" id="tab" role="tablist"&gt;<br>
+                        <br>
+                        &lt;!-- атрибут <span class="spanR">data-bs-target</span> должен указывать на элемент,
+                        который необходимо показать
+                        --&gt;<br>
+                        <br>
+                        &lt;button class="nav-link active" id="tab-section-1" data-bs-toggle="tab"
+                        <span class="spanR">data-bs-target="#section-1"</span> type="button" role="tab"
+                        aria-controls="nav-section-1" aria-selected="true"&gt;<br>Секция 1<br>
+                        &lt;/button&gt;<br>
+                        <br>
+                        &lt;button class="nav-link" id="tab-section-2" data-bs-toggle="tab"
+                        <span class="spanR">data-bs-target="#section-2</span>" type="button" role="tab"
+                        aria-controls="nav-section-2" aria-selected="false"><br>Секция 2<br>&lt;/button&gt;<br>
+                        <br>
+                        &lt;button class="nav-link" id="tab-section-3" data-bs-toggle="tab"
+                        <span class="spanR">data-bs-target="#section-3"</span> type="button" role="tab"
+                        aria-controls="nav-section-3" aria-selected="false"><br>
+                        Секция 3<br>
+                        &lt;/button&gt;<br>
+                        <br>
+                        &lt;/div&gt;<br>
+                        &lt;/nav&gt;<br>
+                        <br>
+                        &lt;div class="tab-content p-3" id="nav-tabContent"&gt;<br>
+                        <br>
+                        &lt;!-- <span class="spanR">атрибут id определяет вкладку</span> --&gt;<br>
+                        <br>
+                        &lt;div class="tab-pane fade show active" <span class="spanR">id="section-1</span>"
+                        role="tabpanel"
+                        aria-labelledby="nav-section-1-tab"&gt;<br>
+                        ...Секция 1<br>
+                        &lt;/div&gt;<br>
+                        <br>
+                        &lt;div class="tab-pane" <span class="spanR">"id="section-2"</span>role="tabpanel
+                        aria-labelledby="nav-section-2-tab"&gt;<br>
+                        ...Секция 2<br>
+                        &lt;/div&gt;<br>
+                        <br>
+                        &lt;div class="tab-pane fade" <span class="spanR">d="section-3"</span>i role="tabpanel"
+                        aria-labelledby="nav-section-3-tab"&gt;<br>
+                        ...Секция 3<br>
+                        &lt;/div&gt;<br>
+                        &lt;/div&gt;
+
+
+                        <br>
+                    </div>
+
+
+                    <!-- Bootstrap 5 -->
+                    <nav>
+                        <div class="nav nav-tabs" id="tab" role="tablist">
+                            <!-- атрибут data-bs-target должен указывать на элемент, который необходимо показать -->
+                            <button class="nav-link active" id="tab-section-1" data-bs-toggle="tab"
+                                data-bs-target="#section-1" type="button" role="tab" aria-controls="nav-section-1"
+                                aria-selected="true">Секция 1</button>
+                            <button class="nav-link" id="tab-section-2" data-bs-toggle="tab" data-bs-target="#section-2"
+                                type="button" role="tab" aria-controls="nav-section-2" aria-selected="false">Секция
+                                2</button>
+                            <button class="nav-link" id="tab-section-3" data-bs-toggle="tab" data-bs-target="#section-3"
+                                type="button" role="tab" aria-controls="nav-section-3" aria-selected="false">Секция
+                                3</button>
+                        </div>
+                    </nav>
+                    <div class="tab-content p-3" id="nav-tabContent">
+                        <!-- атрибут id определяет вкладку -->
+                        <div class="tab-pane fade show active" id="section-1" role="tabpanel"
+                            aria-labelledby="nav-section-1-tab">
+                            Секция 1
+                        </div>
+                        <div class="tab-pane" id="section-2" role="tabpanel" aria-labelledby="nav-section-2-tab">
+                            Секция 2
+                        </div>
+                        <div class="tab-pane fade" id="section-3" role="tabpanel" aria-labelledby="nav-section-3-tab">
+                            Секция 3
+                        </div>
+                    </div>
+
+                    <p>И всё – вкладки готовы. Как видно, даже сложные элементы интерфейса можно создать за
+                        считанные секунды. <br>
+                        <br>
+                        Но, Bootstrap – это не просто набор готовых инструментов (HTML-фрагментов, классов,
+                        компонентов и плагинов). Это гибко
+                        настраиваемый фреймворк, который можно адаптировать под нужды вашего проекта. Редактируя
+                        Sass-переменные и используя
+                        миксины, вы можете изменить внешний вид и поведение компонентов, чтобы они соответствовали
+                        вашему уникальному дизайну.
+                    </p>
+
+                    <li><a href="#Content">&lt;&lt;&lt;Содержание</a></li>
+                    <br>
+
+                    <h3 id="title3">Из чего состоит Bootstrap?</h3>
+
+                    <p>Bootstrap включает в себя набор инструментов и компонентов, которые позволяют быстро
+                        создавать адаптивные и
+                        функциональные веб-сайты и приложения. Основные составляющие фреймворка:</p>
+
+                    <ol>
+                        <li>Инструменты для создания макета: Обёрточные контейнеры, гибкая система сеток,
+                            медиа-объекты и адаптивные утилитные
+                            классы, позволяющие структурировать и организовать контент на странице.</li>
+                        <li>Классы для стилизации базового контента: Набор стилей для оформления текста,
+                            изображений, кода, таблиц и элементов с разметкой &lt;figure&gt;, что упрощает
+                            применение
+                            единообразного дизайна к стандартным
+                            HTML-элементам.</li>
+                        <li>Готовые компоненты: Широкий ассортимент элементов интерфейса, таких как кнопки, формы,
+                            навигационные панели
+                            (горизонтальные и вертикальные), слайдеры, выпадающие списки, аккордеоны, модальные
+                            окна, всплывающие подсказки и
+                            другие, позволяющие быстро интегрировать функциональные блоки в дизайн сайта.</li>
+                        <li>Утилитные классы: Набор классов для решения типичных задач веб-разработки: выравнивание
+                            текста, управление видимостью
+                            элементов, задание цветов, фонов, а также регулировка внешних и внутренних отступов
+                            (margin и padding).</li>
+                    </ol>
+
+                    <p>Эти компоненты делают Bootstrap мощным инструментом, который значительно ускоряет процесс
+                        разработки адаптивных и
+                        современных веб-интерфейсов.</p>
+
+                    <li><a href="#Content">&lt;&lt;&lt;Содержание</a></li>
+                    <br>
+
+                    <h3 id="title4">С чего начать изучение Bootstrap?</h3>
+
+                    <p>Первый шаг – скачать фреймворк и подключить его к вашей странице. Подробную инструкцию по
+                        установке можно найти в статье
+                        <a href="https://itchief.ru/bootstrap/installation" target="_blank"
+                            rel="noopener noreferrer">«Установка платформы Bootstrap».</a>После подключения
+                        возникает естественный вопрос: <strong>«Что дальше? Как использовать Bootstrap?». </strong>
+                        Ответ прост – все основы работы с фреймворком сводятся к двум основным этапам.
+                    </p>
+
+                    <p><strong>1. Изучите систему сетки. </strong>Система сетки является фундаментом Bootstrap,
+                        позволяющим создавать адаптивные макеты, отлично
+                        работающие на любых устройствах.</p>
+                    <p><strong>Что необходимо сделать:</strong></p>
+
+                    <ol>
+                        <li>Ознакомиться с принципами работы сетки: Изучите, как с помощью готовых классов создавать
+                            колонки, ряды и контейнеры,
+                            которые обеспечивают гибкость и адаптивность вёрстки;</li>
+                        <li>Практиковаться: Создавайте простые макеты страниц, экспериментируйте с разметкой блоков
+                            и структурой страницы.
+                            Практические упражнения помогут закрепить теоретические знания.</li>
+                        <li>Учитывайте особенности версий: При изучении сетки учитывайте,
+                            в версиях 4 и 5 применяется Flexbox, что обеспечивает более гибкое и интуитивное
+                            позиционирование элементов.</li>
+                    </ol>
+
+                    <p><strong>2. Освойте компоненты. </strong>После того как вы уверенно освоили систему сетки,
+                        переходите к изучению компонентов Bootstrap. На
+                        этом этапе важно:</p>
+                    <ol>
+                        <li>Понять, как создаются и настраиваются компоненты: Научитесь использовать стандартные
+                            элементы – кнопки, карточки,
+                            навигационные панели, модальные окна, формы и другие – и адаптировать их под дизайн
+                            вашего проекта.</li>
+                        <li>Экспериментировать с размещением: Практикуйтесь в интеграции компонентов в макет
+                            страницы, меняйте их стили и поведение.
+                            Это поможет понять, как компоненты взаимодействуют друг с другом и с базовой разметкой.
+                        </li>
+                        <li>Изучать примеры и документацию: На нашем сайте представлено множество примеров и
+                            вариантов настройки компонентов, что
+                            позволит вам быстро освоить их использование.</li>
+                    </ol>
+
+                    <li><a href="#Content">&lt;&lt;&lt;Содержание</a></li>
+                    <br>
+
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </main>
+
+</section>
+
+<footer>
+    <div class="container">
+        <p>Виллер Виктор</p>
+        <p> <a href="https://itchief.ru/bootstrap/introduction" target="_blank"
+                rel="noopener noreferrer"><span>Источник</span></a></p>
+
+    </div>
+</footer>

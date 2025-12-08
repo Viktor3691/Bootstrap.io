@@ -114,8 +114,8 @@ span {
 }
 .spanR {
   font-size: 18;
-  color: #63ebeb;
-  background: rgb(0, 0, 0);
+  color: #071d97;
+  background: #cbe5f0;
 }
 .anchor {
   display: inline-block;
@@ -149,8 +149,8 @@ kbd {
 
 .ramka {
   font-size: 16px;
-  background-color: #000;
-  color: #eee;
+  background-color: #eee;
+  color: #000;
   font-family: "Courier New", Courier, monospace;
   inline-size: 100%;
   margin: 20px 0 20px 0;

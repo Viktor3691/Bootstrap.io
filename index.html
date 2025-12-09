@@ -516,6 +516,12 @@
                                     дизайнов используется система из 12 столбцов. Вы можете управлять шириной и
                                     расположением столбцов, комбинируя классы
                                     для разных размеров экрана (например, .col-md-6 для устройств среднего размера).</p>
+                                <dl>
+                                    <dt>Bootstrap CSS начинается</dt>
+                                    <dd>с минимальных стилей для небольших экранов и
+                                        добавляет слои для более крупных устройств,
+                                        повышая производительность и удобство использования.</dd>
+                                </dl>
 
                                 <ol>
                                     <li><strong>Точки останова</strong>
@@ -594,17 +600,204 @@
                                                     применить доступные точки останова для создания адаптивной
                                                     вложенной сетки.</p>
 
+                                                <!--  -->
+                                                <div class="ramka"> HTML
+                                                    <br>
+                                                    <br>
+
+
+
+                                                    &lt;!doctype html&gt;<br>
+                                                    &lt;html lang="en"&gt;<br>
+                                                    <br>
+                                                    &lt;head&gt;<br>
+                                                    &emsp;&lt;link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/
+                                                    &emsp; &emsp;&emsp;dist/css/bootstrap.min.css"
+                                                    rel="stylesheet"&gt;<br>
+                                                    &lt;/head&gt;<br>
+                                                    <br>
+                                                    &lt;body><br>
+                                                    &emsp; &lt;h1 class="ms-4 mt-3 text-success"&gt;<br>
+                                                    &emsp;&emsp;&emsp;GeeksforGeeks <br>
+                                                    &emsp; &lt;/h1&gt;<br>
+                                                    &emsp;&emsp;&lt;h4 class="ms-4"&gt;<br>
+                                                    &emsp;&emsp;&emsp;&emsp;Bootstrap 5 Breakpoints Available
+                                                    breakpoints <br>
+                                                    &emsp;&emsp;&lt;/h4&gt;<br>
+                                                    &emsp;&emsp;&lt;pre class="m-4"&gt;<br>
+                                                    &emsp;&emsp;&emsp;&emsp;Responsive Nested Grid <br>
+                                                    &emsp;&emsp;&lt;/pre&gt;<br>
+                                                    &emsp;&emsp;&lt;div class="container"&gt;<br>
+                                                    &emsp;&emsp;&emsp;&emsp;&lt;div class="row"&gt;<br>
+                                                    &emsp;&emsp;&emsp;&emsp;&emsp;&lt;div class="col-md-2 <br>
+                                                    &emsp;&emsp;&emsp;&emsp;&emsp;bg-light border <br>
+                                                    &emsp; &emsp;&emsp;&emsp;&emsp;border-warning"&gt;<br>
+                                                    &emsp;&emsp;&emsp;&emsp;&emsp;Outer: .col-md-2 <br>
+                                                    &emsp;&emsp;&emsp;&emsp;&lt;/div&gt;<br>
+                                                    &emsp;&emsp;&emsp;&emsp;&lt;div class="col-md-10 <br>
+                                                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;bg-light <br>
+                                                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;text-light <br>
+                                                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;border border-warning"&gt;<br>
+                                                    &emsp;&emsp;&emsp;&emsp;&lt;div class="row"&gt;<br>
+                                                    &emsp;&emsp;&emsp;&emsp;&emsp;&lt;div class="col-6 col-md-4 <br>
+                                                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;bg-secondary
+                                                    <br>
+                                                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;border
+                                                    border-warning"&gt;<br>
+                                                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Nested: .col-6
+                                                    .col-md-4 <br>
+                                                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&lt;/div&gt;<br>
+                                                    &emsp;&emsp;&emsp;&emsp;&emsp; &lt;div class="col-6 col-md-8 <br>
+                                                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; bg-secondary <br>
+                                                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; border
+                                                    border-warning"&gt;<br>
+                                                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;nested: .col-6 .col-md-8 <br>
+                                                    &emsp;&emsp;&emsp;&emsp;&emsp;&lt;/div&gt;<br>
+                                                    &emsp;&emsp;&emsp;&emsp;&lt;/div&gt;<br>
+                                                    &emsp;&emsp;&emsp;&lt;/div&gt;<br>
+                                                    &emsp;&emsp;&lt;/div&gt;<br>
+                                                    &emsp;&lt;/div&gt;<br>
+                                                    &lt;/body&gt;<br>
+                                                    <br>
+                                                    &lt;/html&gt;<br>
+
+                                                </div>
+
+                                                <!--  -->
+
+                                                <h1 class="ms-4 mt-3 text-success">
+                                                    GeeksforGeeks
+                                                </h1>
+                                                <h4 class="ms-4">
+                                                    Bootstrap 5 Breakpoints Available breakpoints
+                                                </h4>
+                                                <pre class="m-4">
+                                                        Responsive Nested Grid
+                                                    </pre>
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-md-2
+                                                                        bg-light border
+                                                                        border-warning">
+                                                            Outer: .col-md-2
+                                                        </div>
+                                                        <div class="col-md-10
+                                                                        bg-light
+                                                                        text-light
+                                                                        border border-warning">
+                                                            <div class="row">
+                                                                <div class="col-6 col-md-4
+                                                                                bg-secondary
+                                                                                border border-warning">
+                                                                    Nested: .col-6 .col-md-4
+                                                                </div>
+                                                                <div class="col-6 col-md-8
+                                                                                bg-secondary
+                                                                                border border-warning">
+                                                                    nested: .col-6 .col-md-8
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--  -->
+
+                                                <div class="container">
+                                                    <button type="button" class="btn btn-success mt-4"
+                                                        data-bs-toggle="modal" data-bs-target="#cardModal">
+                                                        Launch Modal to show grid
+                                                    </button>
+                                                    <div class="modal fade" id="cardModal" tabindex="-1"
+                                                        aria-labelledby="cardModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title" id="cardModalLabel">
+                                                                        This Modal Contains a Grid implemented with
+                                                                        Available breakpoints
+                                                                    </h5>
+                                                                    <button type="button" class="btn-close"
+                                                                        data-bs-dismiss="modal" aria-label="Close">
+                                                                    </button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <div class="container mt-4 p-4">
+                                                                        <div class="row text-light mb-3">
+                                                                            <div class="col-sm-6 bg-secondary border">
+                                                                                col-sm-6
+                                                                            </div>
+                                                                            <div class="col-lg-6 bg-secondary border">
+                                                                                col-lg-6
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row text-light mb-3">
+                                                                            <div class="col-lg-7 bg-success border">
+                                                                                col-lg-7
+                                                                            </div>
+                                                                            <div class="col-md-5 bg-success border">
+                                                                                col-md-5
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
                                             </dd>
 
                                             <dt>Медиазапросы</dt>
-                                            <dd>используют точки останова для применения стилей в зависимости
-                                                от параметров экрана, таких как минимальная
-                                                ширина.</dd>
+                                            <dd>
+                                                <p>
+                                                    используют точки останова для применения стилей в зависимости
+                                                    от параметров экрана, таких как минимальная
+                                                    ширина. <br>
+                                                    <br>
+                                                    Мы используем несколько медиазапросов для применения разных таблиц
+                                                    стилей на разных устройствах, чтобы создать
+                                                    подходящие точки останова для наших макетов и интерфейсов. <br>
+                                                    <br>Эти точки останова в основном основаны на минимальной ширине
+                                                    области просмотра и позволяют нам масштабировать элементы при
+                                                    изменении области просмотра. В исходных файлах Sass для
+                                                    макетов, сеточной системы и компонентов Bootstrap в основном
+                                                    используются следующие диапазоны медиазапросов — или точки
+                                                    останова.
+                                                </p>
 
-                                            <dt>Bootstrap CSS начинается</dt>
-                                            <dd>с минимальных стилей для небольших экранов и
-                                                добавляет слои для более крупных устройств,
-                                                повышая производительность и удобство использования.</dd>
+                                                <div class="ramka"> CSS
+                                                    <br>
+                                                    <br>
+                                                    <!--  -->
+                                                    // Extra small devices (portrait phones, less than 576px)<br>
+                                                    // No media query since this is the default in Bootstrap
+                                                    <br>
+                                                    // Small devices (landscape phones, 576px and up)<br>
+                                                    @media (min-width: 576px) { ... }
+                                                    <br>
+                                                    // Medium devices (tablets, 768px and up)<br>
+                                                    @media (min-width: 768px) { ... }
+                                                    <br>
+                                                    // Large devices (desktops, 992px and up)<br>
+                                                    @media (min-width: 992px) { ... }
+                                                    <br>
+                                                    // Extra large devices (large desktops, 1200px and up)<br>
+                                                    @media (min-width: 1200px) { ... }
+                                                    <!--  -->
+                                                    <br>
+                                                </div>
+
+                                                <p>Медиазапросы для изменения цвета фона Скопируйте приведенный ниже код
+                                                    и сохраните его с расширением .htm. Измените
+                                                    размер окна браузера, чтобы увидеть эффект. Примеры:
+                                                </p>
+
+
+
+
+
+                                            </dd>
+
                                         </dl>
 
 

@@ -5,6 +5,7 @@
   --color3: #16d8fa;
   --color4: #2124ee;
   --colorMain1: #eee;
+  --colorSpan: #ffffff;
 }
 :root,
 [data-bs-theme="light"] {
@@ -110,7 +111,7 @@ section {
 span {
   font-size: 18px;
   color: #d13708;
-  background: #e3f1fa;
+  background: var(--colorSpan);
 }
 .spanR {
   font-size: 18;

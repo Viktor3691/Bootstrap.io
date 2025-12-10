@@ -30,7 +30,8 @@
     "axe/structure": [
       "default",
       {
-        "listitem": "off"
+        "listitem": "off",
+        "definition-list": "off"
       }
     ],
     "axe/name-role-value": [

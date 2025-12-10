@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/proba1.css">
+    <link rel="stylesheet" href="css/6.css">
     <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="css/proba1.css"> -->
 </head>
 
 
@@ -300,63 +300,63 @@
                                     HTML-фрагмент и отредактировать его в
                                     соответствии с вашими потребностями. Пример для Bootstrap 5:</p>
 
-                                <div class="ramka"> HTML
-                                    <br>
-                                    <br>
+                                <div class="w3-example"> HTML
+                                    <pre>
+                                <code>
+&lt;!-- Bootstrap 5 --&gt;
+&lt;nav&gt;
+   &lt;div class="nav nav-tabs" id="tab" role="tablist"&gt;
 
-                                    &lt;!-- Bootstrap 5 --&gt;<br>
-                                    &lt;nav&gt;<br>
-                                    &lt;div class="nav nav-tabs" id="tab" role="tablist"&gt;<br>
-                                    <br>
-                                    &lt;!-- атрибут <span class="spanR">data-bs-target</span> должен указывать на
-                                    элемент,
-                                    который необходимо показать
-                                    --&gt;<br>
-                                    <br>
-                                    &lt;button class="nav-link active" id="tab-section-1" data-bs-toggle="tab"
-                                    <span class="spanR">data-bs-target="#section-1"</span> type="button" role="tab"
-                                    aria-controls="nav-section-1" aria-selected="true"&gt;<br>Секция 1<br>
-                                    &lt;/button&gt;<br>
-                                    <br>
-                                    &lt;button class="nav-link" id="tab-section-2" data-bs-toggle="tab"
-                                    <span class="spanR">data-bs-target="#section-2</span>" type="button" role="tab"
-                                    aria-controls="nav-section-2" aria-selected="false"><br>Секция
-                                    2<br>&lt;/button&gt;<br>
-                                    <br>
-                                    &lt;button class="nav-link" id="tab-section-3" data-bs-toggle="tab"
-                                    <span class="spanR">data-bs-target="#section-3"</span> type="button" role="tab"
-                                    aria-controls="nav-section-3" aria-selected="false"><br>
-                                    Секция 3<br>
-                                    &lt;/button&gt;<br>
-                                    <br>
-                                    &lt;/div&gt;<br>
-                                    &lt;/nav&gt;<br>
-                                    <br>
-                                    &lt;div class="tab-content p-3" id="nav-tabContent"&gt;<br>
-                                    <br>
-                                    &lt;!-- <span class="spanR">атрибут id определяет вкладку</span> --&gt;<br>
-                                    <br>
-                                    &lt;div class="tab-pane fade show active" <span class="spanR">id="section-1</span>"
-                                    role="tabpanel"
-                                    aria-labelledby="nav-section-1-tab"&gt;<br>
-                                    ...Секция 1<br>
-                                    &lt;/div&gt;<br>
-                                    <br>
-                                    &lt;div class="tab-pane" <span class="spanR">"id="section-2"</span>role="tabpanel
-                                    aria-labelledby="nav-section-2-tab"&gt;<br>
-                                    ...Секция 2<br>
-                                    &lt;/div&gt;<br>
-                                    <br>
-                                    &lt;div class="tab-pane fade" <span class="spanR">d="section-3"</span>i
-                                    role="tabpanel"
-                                    aria-labelledby="nav-section-3-tab"&gt;<br>
-                                    ...Секция 3<br>
-                                    &lt;/div&gt;<br>
-                                    &lt;/div&gt;
+&lt;!-- атрибут <span>data-bs-target</span> должен указывать на
+элемент, который необходимо показать--&gt;
 
+   &lt;button class="nav-link active" id="tab-section-1" data-bs-toggle="tab"
+      <span>data-bs-target="#section-1"</span> type="button" role="tab"
+      aria-controls="nav-section-1" aria-selected="true"&gt;
+      Секция 1
+   &lt;/button&gt;
 
-                                    <br>
+   &lt;button class="nav-link" id="tab-section-2" data-bs-toggle="tab"
+      <span>data-bs-target="#section-2</span>" type="button" role="tab"
+      aria-controls="nav-section-2" aria-selected="false">
+      Секция 2
+   &lt;/button&gt;
+
+   &lt;button class="nav-link" id="tab-section-3" data-bs-toggle="tab"
+      <span>data-bs-target="#section-3"</span> type="button" role="tab"
+      aria-controls="nav-section-3" aria-selected="false">
+      Секция 3
+   &lt;/button&gt;
+  &lt;/div&gt;
+&lt;/nav&gt;
+
+&lt;div class="tab-content p-3" id="nav-tabContent"&gt;
+
+&lt;!-- <span>атрибут id определяет вкладку</span> --&gt;
+  &lt;div class="tab-pane fade show active" <span>id="section-1</span>"
+     role="tabpanel" aria-labelledby="nav-section-1-tab"&gt;
+     ...Секция 1
+  &lt;/div&gt;
+
+  &lt;div class="tab-pane" <span>"id="section-2"</span>role="tabpanel
+     aria-labelledby="nav-section-2-tab"&gt;
+     ...Секция 2
+  &lt;/div&gt;
+
+  &lt;div class="tab-pane fade" <span>d="section-3"</span>
+     role="tabpanel" aria-labelledby="nav-section-3-tab"&gt;
+     ...Секция 3
+  &lt;/div&gt;
+&lt;/div&gt;
+                                </code>
                                 </div>
+
+
+
+
+
+
+
 
 
                                 <!-- Bootstrap 5 -->
@@ -405,12 +405,6 @@
                                     вашему уникальному дизайну.
                                 </p>
 
-
-
-
-
-
-
                                 <h4 id="list-item-3">Из чего состоит Bootstrap?</h4>
 
                                 <p>Bootstrap включает в себя набор инструментов и компонентов, которые позволяют быстро
@@ -447,12 +441,7 @@
                                     разработки адаптивных и
                                     современных веб-интерфейсов.</p>
 
-
                                 <br>
-
-
-
-
 
                                 <h4 id="list-item-4">С чего начать изучение Bootstrap?</h4>
 
@@ -516,316 +505,608 @@
                                     дизайнов используется система из 12 столбцов. Вы можете управлять шириной и
                                     расположением столбцов, комбинируя классы
                                     для разных размеров экрана (например, .col-md-6 для устройств среднего размера).</p>
-                                <dl>
-                                    <dt>Bootstrap CSS начинается</dt>
-                                    <dd>с минимальных стилей для небольших экранов и
-                                        добавляет слои для более крупных устройств,
-                                        повышая производительность и удобство использования.</dd>
-                                </dl>
 
-                                <ol>
-                                    <li><strong>Точки останова</strong>
-                                        <p>Bootstrap 5 Точки останова макета — это значения ширины экрана, при которых
-                                            меняется внешний вид и поведение элементов
-                                            на веб-странице. Эти точки останова позволяют создавать адаптивный дизайн,
-                                            настраивая расположение и оформление контента
-                                            для различных устройств, таких как мобильные телефоны, планшеты и настольные
-                                            компьютеры.</p>
+                                <strong>Точки останова</strong>
+                                <p>Bootstrap 5 Точки останова макета — это значения ширины экрана, при которых
+                                    меняется внешний вид и поведение элементов
+                                    на веб-странице. Эти точки останова позволяют создавать адаптивный дизайн,
+                                    настраивая расположение и оформление контента
+                                    для различных устройств, таких как мобильные телефоны, планшеты и настольные
+                                    компьютеры.</p>
 
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th>
+                                                <h4>Точка останова</h4>
+                                            </th>
+                                            <th>
+                                                <h4>Инфикс класса</h4>
+                                            </th>
+                                            <th>
+                                                <h4>Размеры</h4>
+                                            </th>
+                                        </tr>
+                                    </thead>
 
-                                        <dl class="dl-horizontal">
-                                            <dt>Точки останова в адаптивном дизайне</dt>
-                                            <dd>определяют, когда макеты подстраиваются
-                                                под конкретные размеры устройств или области
-                                                просмотра. <br>
-                                                Bootstrap предлагает 6 точек останова по умолчанию (уровни сетки). При
-                                                необходимости настройте их с помощью исходных
-                                                файлов Sass.
-                                                <br>
-                                                <br>
-                                                <table class="table table-bordered">
-                                                    <thead>
-                                                        <tr>
-                                                            <th>
-                                                                <h4>Точка останова</h4>
-                                                            </th>
-                                                            <th>
-                                                                <h4>Инфикс класса</h4>
-                                                            </th>
-                                                            <th>
-                                                                <h4>Размеры</h4>
-                                                            </th>
-                                                        </tr>
-                                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>extra-small</td>
+                                            <td>none</td>
+                                            <td>&lt;576px</td>
+                                        </tr>
+                                        <tr>
+                                            <td>small</td>
+                                            <td>sm</td>
+                                            <td>&gt;=576px</td>
+                                        </tr>
+                                        <tr>
+                                            <td>medium</td>
+                                            <td>md</td>
+                                            <td>&gt;=768px</td>
+                                        </tr>
+                                        <tr>
+                                            <td>large</td>
+                                            <td>lg</td>
+                                            <td>&gt;=992px</td>
+                                        </tr>
+                                        <tr>
+                                            <td>extra large</td>
+                                            <td>xl</td>
+                                            <td>&gt;=1200px</td>
+                                        </tr>
+                                        <tr>
+                                            <td>extra extra large</td>
+                                            <td>xxl</td>
+                                            <td>&gt;=1400px</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
 
-                                                    <tbody>
-                                                        <tr>
-                                                            <td>extra-small</td>
-                                                            <td>none</td>
-                                                            <td>&lt;576px</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>small</td>
-                                                            <td>sm</td>
-                                                            <td>&gt;=576px</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>medium</td>
-                                                            <td>md</td>
-                                                            <td>&gt;=768px</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>large</td>
-                                                            <td>lg</td>
-                                                            <td>&gt;=992px</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>extra large</td>
-                                                            <td>xl</td>
-                                                            <td>&gt;=1200px</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>extra extra large</td>
-                                                            <td>xxl</td>
-                                                            <td>&gt;=1400px</td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
+                                <p>Эти точки останова разработаны таким образом, чтобы идеально
+                                    соответствовать 12 разделам, а размеры можно изменить в
+                                    таблице Sass _variable.scss stylesheet.</p>
 
-                                                <p>Эти точки останова разработаны таким образом, чтобы идеально
-                                                    соответствовать 12 разделам, а размеры можно изменить в
-                                                    таблице Sass _variable.scss stylesheet.</p>
-
-                                                <p>Пример 1. В приведенном ниже примере кода показано, как можно
-                                                    применить доступные точки останова для создания адаптивной
-                                                    вложенной сетки.</p>
-
-                                                <!--  -->
-                                                <div class="ramka"> HTML
-                                                    <br>
-                                                    <br>
+                                <p>Пример 1. В приведенном ниже примере кода показано, как можно
+                                    применить доступные точки останова для создания адаптивной
+                                    вложенной сетки.</p>
 
 
 
-                                                    &lt;!doctype html&gt;<br>
-                                                    &lt;html lang="en"&gt;<br>
-                                                    <br>
-                                                    &lt;head&gt;<br>
-                                                    &emsp;&lt;link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/
-                                                    &emsp; &emsp;&emsp;dist/css/bootstrap.min.css"
-                                                    rel="stylesheet"&gt;<br>
-                                                    &lt;/head&gt;<br>
-                                                    <br>
-                                                    &lt;body><br>
-                                                    &emsp; &lt;h1 class="ms-4 mt-3 text-success"&gt;<br>
-                                                    &emsp;&emsp;&emsp;GeeksforGeeks <br>
-                                                    &emsp; &lt;/h1&gt;<br>
-                                                    &emsp;&emsp;&lt;h4 class="ms-4"&gt;<br>
-                                                    &emsp;&emsp;&emsp;&emsp;Bootstrap 5 Breakpoints Available
-                                                    breakpoints <br>
-                                                    &emsp;&emsp;&lt;/h4&gt;<br>
-                                                    &emsp;&emsp;&lt;pre class="m-4"&gt;<br>
-                                                    &emsp;&emsp;&emsp;&emsp;Responsive Nested Grid <br>
-                                                    &emsp;&emsp;&lt;/pre&gt;<br>
-                                                    &emsp;&emsp;&lt;div class="container"&gt;<br>
-                                                    &emsp;&emsp;&emsp;&emsp;&lt;div class="row"&gt;<br>
-                                                    &emsp;&emsp;&emsp;&emsp;&emsp;&lt;div class="col-md-2 <br>
-                                                    &emsp;&emsp;&emsp;&emsp;&emsp;bg-light border <br>
-                                                    &emsp; &emsp;&emsp;&emsp;&emsp;border-warning"&gt;<br>
-                                                    &emsp;&emsp;&emsp;&emsp;&emsp;Outer: .col-md-2 <br>
-                                                    &emsp;&emsp;&emsp;&emsp;&lt;/div&gt;<br>
-                                                    &emsp;&emsp;&emsp;&emsp;&lt;div class="col-md-10 <br>
-                                                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;bg-light <br>
-                                                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;text-light <br>
-                                                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;border border-warning"&gt;<br>
-                                                    &emsp;&emsp;&emsp;&emsp;&lt;div class="row"&gt;<br>
-                                                    &emsp;&emsp;&emsp;&emsp;&emsp;&lt;div class="col-6 col-md-4 <br>
-                                                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;bg-secondary
-                                                    <br>
-                                                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;border
-                                                    border-warning"&gt;<br>
-                                                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Nested: .col-6
-                                                    .col-md-4 <br>
-                                                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&lt;/div&gt;<br>
-                                                    &emsp;&emsp;&emsp;&emsp;&emsp; &lt;div class="col-6 col-md-8 <br>
-                                                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; bg-secondary <br>
-                                                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; border
-                                                    border-warning"&gt;<br>
-                                                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;nested: .col-6 .col-md-8 <br>
-                                                    &emsp;&emsp;&emsp;&emsp;&emsp;&lt;/div&gt;<br>
-                                                    &emsp;&emsp;&emsp;&emsp;&lt;/div&gt;<br>
-                                                    &emsp;&emsp;&emsp;&lt;/div&gt;<br>
-                                                    &emsp;&emsp;&lt;/div&gt;<br>
-                                                    &emsp;&lt;/div&gt;<br>
-                                                    &lt;/body&gt;<br>
-                                                    <br>
-                                                    &lt;/html&gt;<br>
+                                <div class="w3-example"> HTML
+                                    <pre>
+<code>
+&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
 
-                                                </div>
+&lt;head&gt;
+  &lt;link href="https://cdn.br.net/npm/bootstrap@5.0.2/
+  dist/css/bootstrap.min.css" rel="stylesheet"&gt;
+&lt;/head&gt;
 
-                                                <!--  -->
+&lt;body&gt;
+  &lt;h1 class="ms-4 mt-3 text-success"&gt;
+  GeeksforGeeks
+  &lt;/h1&gt;
 
-                                                <h1 class="ms-4 mt-3 text-success">
-                                                    GeeksforGeeks
-                                                </h1>
-                                                <h4 class="ms-4">
-                                                    Bootstrap 5 Breakpoints Available breakpoints
-                                                </h4>
-                                                <pre class="m-4">
+  &lt;h4&gt;
+  Bootstrap 5 Breakpoints Available breakpoints
+  &lt;/h4&gt;
+
+  &lt;pre class="m-4"&gt;
+  Responsive Nested Grid
+  &lt;/pre&gt;
+  &lt;div class="container"&gt;
+        &lt;div class="row"&gt;
+          &lt;div class="col-md-2
+              bg-light border
+              border-warning"&gt;
+              Outer: .col-md-2
+           &lt;/div&gt;
+            &lt;div class="col-md-10
+              bg-light
+              text-light
+              border border-warning"&gt;
+        &lt;div class="row"&gt;
+          &lt;div class="col-6 col-md-4
+              bg-secondary
+              border
+              border-warning"&gt;
+              Nested: .col-6
+              .col-md-4
+          &lt;/div&gt;
+          &lt;div class="col-6 col-md-8
+              bg-secondary
+              border
+              border-warning"&gt;
+              nested: .col-6 .col-md-8
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+</code>
+</div>
+
+
+
+
+
+
+                                <h1 class="ms-4 mt-3 text-success">
+                                    GeeksforGeeks
+                                </h1>
+                                <h4 class="ms-4">
+                                    Bootstrap 5 Breakpoints Available breakpoints
+                                </h4>
+                                <pre class="m-4">
                                                         Responsive Nested Grid
                                                     </pre>
-                                                <div class="container">
-                                                    <div class="row">
-                                                        <div class="col-md-2
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-2
                                                                         bg-light border
                                                                         border-warning">
-                                                            Outer: .col-md-2
-                                                        </div>
-                                                        <div class="col-md-10
+                                                Outer: .col-md-2
+                                            </div>
+                                            <div class="col-md-10
                                                                         bg-light
                                                                         text-light
                                                                         border border-warning">
-                                                            <div class="row">
-                                                                <div class="col-6 col-md-4
+                                                <div class="row">
+                                                    <div class="col-6 col-md-4
                                                                                 bg-secondary
                                                                                 border border-warning">
-                                                                    Nested: .col-6 .col-md-4
+                                                        Nested: .col-6 .col-md-4
+                                                    </div>
+                                                    <div class="col-6 col-md-8
+                                                                                bg-secondary
+                                                                                border border-warning">
+                                                        nested: .col-6 .col-md-8
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--  -->
+
+                                    <div class="container">
+                                        <button type="button" class="btn btn-success mt-4" data-bs-toggle="modal"
+                                            data-bs-target="#cardModal">
+                                            Launch Modal to show grid
+                                        </button>
+                                        <div class="modal fade" id="cardModal" tabindex="-1"
+                                            aria-labelledby="cardModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="cardModalLabel">
+                                                            This Modal Contains a Grid implemented with
+                                                            Available breakpoints
+                                                        </h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close">
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="container mt-4 p-4">
+                                                            <div class="row text-light mb-3">
+                                                                <div class="col-sm-6 bg-secondary border">
+                                                                    col-sm-6
                                                                 </div>
-                                                                <div class="col-6 col-md-8
-                                                                                bg-secondary
-                                                                                border border-warning">
-                                                                    nested: .col-6 .col-md-8
+                                                                <div class="col-lg-6 bg-secondary border">
+                                                                    col-lg-6
+                                                                </div>
+                                                            </div>
+                                                            <div class="row text-light mb-3">
+                                                                <div class="col-lg-7 bg-success border">
+                                                                    col-lg-7
+                                                                </div>
+                                                                <div class="col-md-5 bg-success border">
+                                                                    col-md-5
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <!--  -->
+                                            </div>
+                                        </div>
+                                    </div>
 
-                                                <div class="container">
-                                                    <button type="button" class="btn btn-success mt-4"
-                                                        data-bs-toggle="modal" data-bs-target="#cardModal">
-                                                        Launch Modal to show grid
-                                                    </button>
-                                                    <div class="modal fade" id="cardModal" tabindex="-1"
-                                                        aria-labelledby="cardModalLabel" aria-hidden="true">
-                                                        <div class="modal-dialog">
-                                                            <div class="modal-content">
-                                                                <div class="modal-header">
-                                                                    <h5 class="modal-title" id="cardModalLabel">
-                                                                        This Modal Contains a Grid implemented with
-                                                                        Available breakpoints
-                                                                    </h5>
-                                                                    <button type="button" class="btn-close"
-                                                                        data-bs-dismiss="modal" aria-label="Close">
-                                                                    </button>
-                                                                </div>
-                                                                <div class="modal-body">
-                                                                    <div class="container mt-4 p-4">
-                                                                        <div class="row text-light mb-3">
-                                                                            <div class="col-sm-6 bg-secondary border">
-                                                                                col-sm-6
-                                                                            </div>
-                                                                            <div class="col-lg-6 bg-secondary border">
-                                                                                col-lg-6
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="row text-light mb-3">
-                                                                            <div class="col-lg-7 bg-success border">
-                                                                                col-lg-7
-                                                                            </div>
-                                                                            <div class="col-md-5 bg-success border">
-                                                                                col-md-5
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                                    </dd>
+
+                                    <dl>
+                                        <dt>Медиазапросы</dt>
+                                        <dd>
+                                            <p>
+                                                используют точки останова для применения стилей в зависимости
+                                                от параметров экрана, таких как минимальная
+                                                ширина. <br>
+                                                <br>
+                                                Мы используем несколько медиазапросов для применения разных таблиц
+                                                стилей на разных устройствах, чтобы создать
+                                                подходящие точки останова для наших макетов и интерфейсов. <br>
+                                                <br>Эти точки останова в основном основаны на минимальной ширине
+                                                области просмотра и позволяют нам масштабировать элементы при
+                                                изменении области просмотра. В исходных файлах Sass для
+                                                макетов, сеточной системы и компонентов Bootstrap в основном
+                                                используются следующие диапазоны медиазапросов — или точки
+                                                останова.
+                                            </p>
+
+                                        </dd>
+
+                                    </dl>
+
+
+
+
+                                    <dl>
+                                        <dt>Контейнеры</dt>
+                                        <dd>это базовый элемент разметки в Bootstrap, который <strong>обязателен при
+                                                использовании нашей системы сеток по умолчанию.</strong>
+
+                                            Контейнеры используются для размещения, отступов и (иногда)
+                                            центрирования содержимого внутри них. Хотя контейнеры могут
+                                            быть вложенными, для большинства макетов вложенный контейнер не
+                                            требуется. <br><br>
+
+                                            В Bootstrap есть три разных контейнера: <br>
+
+                                            <strong>Фиксированный контейнер</strong><span>
+                                                .container,</span> который устанавливает
+                                            <span>max-width</span> для
+                                            каждой адаптивной точки останова <br><br>
+                                            <div style="width: 90%; margin: auto;" class=" bg2">
+                                                .container
+                                            </div>
+                                            <br>
+
+
+                                            <strong>Контейнер Fluid (контейнер полной ширины)</strong>
+                                            <span>.container-fluid,</span> которая является width: 100% для
+                                            всех точек останова. <br><br>
+                                            <div class="container-fluid bg3">
+                                                .container-fluid
+                                            </div>
+                                            <br>
+
+                                            <strong>Адаптивные контейнеры</strong>
+                                            Вы также можете использовать
+                                            классы<span>.container-sm|md|lg|xl,</span>
+                                            чтобы определить, когда контейнер должен реагировать.
+
+                                            <span> max-width </span> контейнера будет меняться в зависимости
+                                            от размера экрана/окна просмотра:
+                                            <br>
+                                            <br>
+                                            <br>
+                                            <div class="w3-responsive" style="margin:-16px 0">
+                                                <table class="table table-bordered">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Class</th>
+                                                            <th>
+                                                                Extra small<br>
+                                                                &lt;576px
+                                                            </th>
+                                                            <th>
+                                                                Small<br>
+                                                                &#8805;576px
+                                                            </th>
+                                                            <th>
+                                                                Medium<br>
+                                                                &#8805;768px
+                                                            </th>
+                                                            <th>
+                                                                Large<br>
+                                                                &#8805;992px
+                                                            </th>
+                                                            <th>
+                                                                Extra large<br>
+                                                                &#8805;1200px
+                                                            </th>
+                                                            <th>
+                                                                XXL<br>
+                                                                &#8805;1400px
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td><code>.container-sm</code></td>
+                                                            <td>100%</td>
+                                                            <td>540px</td>
+                                                            <td>720px</td>
+                                                            <td>960px</td>
+                                                            <td>1140px</td>
+                                                            <td>1320px</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><code>.container-md</code></td>
+                                                            <td>100%</td>
+                                                            <td>100%</td>
+                                                            <td>720px</td>
+                                                            <td>960px</td>
+                                                            <td>1140px</td>
+                                                            <td>1320px</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><code>.container-lg</code></td>
+                                                            <td>100%</td>
+                                                            <td>100%</td>
+                                                            <td>100%</td>
+                                                            <td>960px</td>
+                                                            <td>1140px</td>
+                                                            <td>1320px</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><code>.container-xl</code></td>
+                                                            <td>100%</td>
+                                                            <td>100%</td>
+                                                            <td>100%</td>
+                                                            <td>100%</td>
+                                                            <td>1140px</td>
+                                                            <td>1320px</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><code>.container-xxl</code></td>
+                                                            <td>100%</td>
+                                                            <td>100%</td>
+                                                            <td>100%</td>
+                                                            <td>100%</td>
+                                                            <td>100%</td>
+                                                            <td>1320px</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                    </dl>
+                                    </li>
+                                    </ul>
+                                    <br>
+                                    <div style="width: 41%; margin: auto;">
+                                        <div class="container-sm bg-info">.container-sm 540px</div>
+                                    </div>
+
+
+                                    <br>
+                                    <div style="width: 55%; margin: auto;">
+                                        <div class="container-md bg-info">.container-md 720px</div>
+                                    </div>
+                                    <br>
+                                    <div style="width: 73%; margin: auto;">
+                                        <div class="container-lg bg-info">.container-lg 960px</div>
+                                    </div>
+
+                                    <br>
+                                    <div style="width: 86%; margin: auto;">
+                                        <div class="container-xl bg-info">.container-xl 1140px</div>
+                                    </div>
+
+                                    <br>
+                                    <div style="width: 100%; margin: auto;">
+                                        <div class="container-xxl bg-info">.container-xxl 1320px</div>
+                                    </div>
+                                    <br>
+                                    </dd>
+                                    </dl>
+
+                                    <dl>
+                                        <dt>Заполнение контейнера</dt>
+                                        <dd>По умолчанию контейнеры имеют отступы слева и справа, без отступов
+                                            сверху и снизу. Поэтому мы часто используем утилиты
+                                            для создания пробелов, такие как дополнительные отступы и поля, чтобы
+                                            они выглядели еще лучше. Например, .pt-5 означает
+                                            «добавить большой верхний отступ»: <br>
+                                            <br>
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-sm-3 pt-0 bg-info">container pt-0
                                                     </div>
+
+                                                    <div class="col-sm-3 pt-1 bg-primary">container pt-1
+                                                    </div>
+
+                                                    <div class="col-sm-3 pt-2 bg-body-secondary">container pt-2
+                                                    </div>
+
+                                                    <div class="col-sm-3 pt-3 bg-body-tertiary">container pt-3
+                                                    </div>
+
+                                                    <div class="col-sm-3 pt-4 bg-danger">container pt-4</div>
+
+                                                    <div class="col-sm-3 pt-5 bg-dark-subtle">container pt-5</div>
                                                 </div>
 
-                                            </dd>
-
-                                            <dt>Медиазапросы</dt>
-                                            <dd>
-                                                <p>
-                                                    используют точки останова для применения стилей в зависимости
-                                                    от параметров экрана, таких как минимальная
-                                                    ширина. <br>
-                                                    <br>
-                                                    Мы используем несколько медиазапросов для применения разных таблиц
-                                                    стилей на разных устройствах, чтобы создать
-                                                    подходящие точки останова для наших макетов и интерфейсов. <br>
-                                                    <br>Эти точки останова в основном основаны на минимальной ширине
-                                                    области просмотра и позволяют нам масштабировать элементы при
-                                                    изменении области просмотра. В исходных файлах Sass для
-                                                    макетов, сеточной системы и компонентов Bootstrap в основном
-                                                    используются следующие диапазоны медиазапросов — или точки
-                                                    останова.
-                                                </p>
-
-                                            </dd>
-
-                                        </dl>
-
-                                    </li>
-                                    <li>
-                                        <dl>
-                                            <dt>Контейнеры</dt>
-                                            <dd>это базовый элемент разметки в Bootstrap, который <strong>обязателен при
-                                                    использовании нашей системы сеток по умолчанию.</strong>
-
-                                                Контейнеры используются для размещения, отступов и (иногда)
-                                                центрирования содержимого внутри них. Хотя контейнеры могут
-                                                быть вложенными, для большинства макетов вложенный контейнер не
-                                                требуется.
-
-                                                В Bootstrap есть три разных контейнера:
-                                                <ul>
-                                                    <li><span>.container,</span> который устанавливает
-                                                        <span>max-width</span> для
-                                                        каждой адаптивной точки останова <br>
-                                                        <div style="width: 90%; margin: auto;" class=" bg2">
-                                                            .container
-                                                        </div>
-                                                        <br>
-                                                    </li>
-
-                                                    <li><span>.container-fluid,</span> которая является width: 100% для
-                                                        всех точек останова
-                                                        <div class="container-fluid bg3">
-                                                            .container-fluid
-                                                        </div>
-
-                                                    </li>
-                                                    <li><span></span></li>
-                                                </ul>
-
-                                            </dd>
-                                        </dl>
-
-                                    </li>
-                                    <li>Сетка</li>
-                                    <li>Столбцы</li>
-                                    <li>Отступы</li>
-                                    <li>Вспомогательные элементы</li>
-                                    <li>Z-индекс</li>
-                                </ol>
+                                            </div>
+                                        </dd>
+                                    </dl>
 
 
+                                    <dl>
+
+                                        <dt>Граница и цвет контейнера</dt>
+                                        <br>
+                                        <dd>
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-sm-3 border-2 bg-info"> col-sm-3 border-0
+                                                        bg-info"
+                                                    </div>
+
+                                                    <div class="col-sm-3 border-5 bg-primary">col-sm-3 border-1
+                                                        bg-primary"
+                                                    </div>
+
+                                                    <div class="col-sm-3 border-2 bg-dark text-white">col-sm-3 bg-dark
+                                                        text-white
+                                                    </div>
+
+                                                    <div class="col-sm-3  bg-primary text-white"> col-sm-3
+                                                        bg-primary
+                                                        text-white"</div>
+                                                </div>
+                                            </div>
+                                        </dd>
+                                    </dl>
+
+                                    <h4>Сеточная система Bootstrap 5</h4>
+
+                                    <p>Система сеток Bootstrap построена на основе flexbox и позволяет разместить на
+                                        странице до 12 столбцов. <br>
+                                        <br>
+                                        Если вы не хотите использовать все 12 столбцов по отдельности, вы можете
+                                        сгруппировать их вместе, чтобы создать болееширокие столбцы:
+                                    </p>
+
+                                    <style>
+                                        table.grid {
+                                            width: 100%;
+                                            border: none;
+                                            background-color: #E7E9EB;
+                                            padding: 0px;
+                                        }
+
+                                        table.grid tr {
+                                            text-align: center;
+                                        }
+
+                                        table.grid td {
+                                            border: 3px solid white;
+                                            padding: 8px;
+                                            background-color: transparent;
+                                        }
+
+                                        .test [class*="col-"] {
+                                            padding: 15px;
+                                            background-color: #E7E9EB;
+                                            border: 1px solid #e3e6e8;
+                                        }
+                                    </style>
+
+                                    <div class="w3-responsive">
+                                        <table class="table grid">
+                                            <tbody>
+                                                <tr>
+                                                    <td>span 1</td>
+                                                    <td>span 1</td>
+                                                    <td>span 1</td>
+                                                    <td>span 1</td>
+                                                    <td>span 1</td>
+                                                    <td>span 1</td>
+                                                    <td>span 1</td>
+                                                    <td>span 1</td>
+                                                    <td>span 1</td>
+                                                    <td>span 1</td>
+                                                    <td>span 1</td>
+                                                    <td>span 1</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">&nbsp;span 2</td>
+                                                    <td colspan="2">&nbsp;span 2</td>
+                                                    <td colspan="4">&nbsp;span 4</td>
+                                                    <td colspan="2">&nbsp;span 2</td>
+                                                    <td colspan="2">&nbsp;span 2</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="3">span 3</td>
+                                                    <td colspan="3">span 3</td>
+                                                    <td colspan="5">span5</td>
+                                                    <td colspan="1">span 1</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="4">span 4</td>
+                                                    <td colspan="4">span 4</td>
+                                                    <td colspan="4">span 4</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="5">span 5</td>
+                                                    <td colspan="5">span 5</td>
+                                                    <td colspan="2">span 2</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="12">span 12</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                    <p>Система сеток адаптивна, а расположение столбцов автоматически меняется в
+                                        зависимости
+                                        от размера экрана.</p>
+
+                                    <h5>Классы сетки</h5>
+
+                                    <p>Система сеток Bootstrap 5 имеет шесть классов:
+                                    </p>
+
+                                    <ul>
+                                        <li><span>.col-</span>(очень маленькие устройства - ширина экрана менее 576
+                                            пикселей)</li>
+                                        <li><span>.col-sm-</span> (маленькие устройства — ширина экрана равна или
+                                            превышает
+                                            576 пикселей)</li>
+                                        <li><span>.col-md-</span> (средние устройства — ширина экрана равна или
+                                            превышает
+                                            768 пикселей)</li>
+                                        <li><span>.col-lg-</span> (большие устройства — ширина экрана равна или
+                                            превышает
+                                            992 пикселя)</li>
+                                        <li><span>.col-xl-</span> (устройства xlarge - ширина экрана равна или превышает
+                                            1200 пикселей)</li>
+                                        <li><span>.col-xxl-</span> (устройства xxlarge - ширина экрана равна или
+                                            превышает
+                                            1400 пикселей)</li>
+                                    </ul>
+
+                                    <p>Вышеуказанные классы можно комбинировать для создания более динамичных и гибких
+                                        макетов. <br>
+                                        <br>
+                                        <strong>Совет. </strong>Каждый класс масштабируется, поэтому, если вы хотите
+                                        установить одинаковую ширину для<span> sm и md,</span> вам нужно указать
+                                        только <span>sm.</span>
+                                    </p>
+
+                                    <h5>Базовая структура сетки Bootstrap 5</h5>
+
+                                    <p>Ниже приведена базовая структура сетки Bootstrap 5:</p>
+
+                                    <div class="w3-example">
+                                        <pre>
+                                        <code>
+HTML
+&lt;!-- Контролируйте ширину столбцов и то, как они должны отображаться на разных устройствах --&gt;
+&lt;div class=&quot;row&quot;&gt;
+   &lt;div class=&quot;col-*-*&quot;&gt;&lt;/div&gt;
+   &lt;div class=&quot;col-*-*&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+   &lt;div class=&quot;col-*-*&quot;&gt;&lt;/div&gt;
+   &lt;div class=&quot;col-*-*&quot;&gt;&lt;/div&gt;
+   &lt;div class=&quot;col-*-*&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Или позвольте Bootstrap автоматически обрабатывать макет --&gt;
+&lt;div class=&quot;row&quot;&gt;
+   &lt;div class=&quot;col&quot;&gt;&lt;/div&gt;
+   &lt;div class=&quot;col&quot;&gt;&lt;/div&gt;
+   &lt;div class=&quot;col&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+                                    </code>
+</pre>
+                                    </div>
 
 
 
 
 
 
+                                </div>
 
                             </div>
-
-                        </div>
-
-                    </div>
 
                 </main>
 
@@ -835,49 +1116,6 @@
 
 
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- <section class="shadow-lg p-3 mb-5 bg-body rounded">
-        <div class="row">
-            <div class="col-3">
-                <div id="list-example" class="list-group">
-
-                    <a class="list-group-item list-group-item-action" href="#list-item-1">Что такое Bootstrap и как он
-                        упрощает вёрстку?</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-2">Как работает Bootstrap?</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-3">Из чего состоит Bootstrap?</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-4">С чего начать изучение
-                        Bootstrap?</a>
-                </div>
-            </div>
-            <div class="col-9">
-
-            </div>
-
-        </div>
-        </div>
-    </section> -->
-
-
-
-
-
 
 
     <section class="shadow-lg p-3 mb-5 bg-body rounded">

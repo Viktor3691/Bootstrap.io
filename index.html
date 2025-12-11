@@ -205,16 +205,11 @@
 
 
                 <main class="main">
-
-                    <div class="posts-container mx-auto my-5">
+                    <h2>Bootstrap</h2>
+                    <div class="posts-container mx-auto my-5 pt-5">
                         <div class="posts">
-
-
                             <div class="post">
-
-                                <h2>1. Основы Bootstrap</h2>
-
-                                <p class="fs-6">Bootstrap 5 это бесплатная коллекция CSS и JavaScript/jQuery с открытым
+                                <p class="fs-6 ">Bootstrap 5 это бесплатная коллекция CSS и JavaScript/jQuery с открытым
                                     исходным
                                     кодом, которая используется для создания
                                     динамических макетов веб-сайтов и веб-приложений. Bootstrap — один из самых
@@ -904,7 +899,7 @@
                                             «добавить большой верхний отступ»: <br>
                                             <br>
                                             <div class="container">
-                                                <div class="row">
+                                                <div class="row mt-1">
                                                     <div class="col-sm-3 pt-0 bg-info">container pt-0
                                                     </div>
 
@@ -933,22 +928,21 @@
                                         <br>
                                         <dd>
                                             <div class="container">
-                                                <div class="row">
-                                                    <div class="col-sm-3 border-2 bg-info"> col-sm-3 border-0
-                                                        bg-info"
+                                                <div class="row mt-1">
+                                                    <div class="col-sm-3 border-1 bg-info box"> col-sm-3 border-1
+                                                        bg-info box
                                                     </div>
 
-                                                    <div class="col-sm-3 border-5 bg-primary">col-sm-3 border-1
-                                                        bg-primary"
+                                                    <div class="col-sm-3 border-1 bg-primary box">col-sm-3 border-1
+                                                        bg-primary box
                                                     </div>
 
-                                                    <div class="col-sm-3 border-2 bg-dark text-white">col-sm-3 bg-dark
-                                                        text-white
+                                                    <div class="col-sm-3 border-1 bg-dark text-white box">col-sm-3
+                                                        border-1 bg-dark text-white box"
                                                     </div>
 
-                                                    <div class="col-sm-3  bg-primary text-white"> col-sm-3
-                                                        bg-primary
-                                                        text-white"</div>
+                                                    <div class="col-sm-3  border-1  bg-primary text-white box"> col-sm-3
+                                                        border-1 bg-primary text-white box</div>
                                                 </div>
                                             </div>
                                         </dd>
@@ -1099,14 +1093,284 @@ HTML
 </pre>
                                     </div>
 
+                                    <div class="container-fluid mt-3">
+
+                                        <h3>Три колонки одинаковой ширины</h3>
 
 
+                                        <div class="row">
+                                            <div class="col p-3 bg-primary text-white box">col p-3 bg-primary text-white
+                                                box
+                                            </div>
+                                            <div class="col p-3 bg-dark text-white box">col p-3 bg-dark text-white box
+                                            </div>
+                                            <div class="col p-3 bg-primary text-white box">col p-3 bg-primary text-white
+                                                box
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
 
+                                    <p>Примечание: Попробуйте добавить новый div с class="col" внутри класса row -
+                                        это создаст четыре столбца одинаковой
+                                        ширины.</p>
 
-
+                                    <div class="row">
+                                        <div class="col p-3 bg-primary text-white box">col p-3 bg-primary text-white box
+                                        </div>
+                                        <div class="col p-3 bg-dark text-white box">col p-3 bg-dark text-white box"
+                                        </div>
+                                        <div class="col p-3 bg-primary text-white box">col p-3 bg-primary text-white box
+                                        </div>
+                                        <div class="col p-3 bg-dark text-white box">col p-3 bg-dark text-white box"
+                                        </div>
+                                    </div>
                                 </div>
 
-                            </div>
+                                <h3>Адаптивные столбцы</h3>
+
+                                <p>В следующем примере показано, как создать четыре столбца одинаковой ширины, начиная с
+                                    планшетов и масштабируя их до
+                                    очень большие рабочие столы. <strong>На мобильных телефонах или экранах шириной
+                                        менее 576 пикселей столбцы автоматически
+                                        складываются друг в друга. друг на друге:</strong></p>
+
+                                <div class="w3-example"> HTML
+                                    <pre>
+<code>
+&lt;div class="row"&gt;
+    &lt;div class="col-sm-3 bg-primary text-white"&gt;.col-sm-3 bg-primary text-white"&lt;/div&gt;
+    &lt;div class="col-sm-3 bg-dark text-white"&gt;.col-sm-3 bg-dark text-white&lt;/div&gt;
+    &lt;div class="col-sm-3 bg-primary text-white"&gt;.col-sm-3 bg-primary text-white"&lt;/div&gt;
+    &lt;div class="col-sm-3 bg-dark text-white">.col-sm-3 bg-dark text-white&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-sm-3  bg-primary  text-white">.col-sm-3 bg-primary text-white</div>
+                                    <div class="col-sm-3 bg-dark text-white">.col-sm-3 bg-dark text-white</div>
+                                    <div class="col-sm-3  bg-primary  text-white">.col-sm-3 bg-primary text-white</div>
+                                    <div class="col-sm-3 bg-dark text-white">.col-sm-3 bg-dark text-white</div>
+                                </div>
+                                <br>
+                                <h3>Две неравные адаптивные колонки</h3>
+
+                                <p>В следующем примере показано, как получить два столбца различной ширины, начиная с
+                                    планшеты и масштабирование до больших
+                                    дополнительных настольных компьютеров:</p>
+
+                                <div class="w3-example"> HTML
+                                    <pre>
+<code>
+&lt;div class="row"&gt;
+    &lt;div class="col-sm-4">.col-sm-4&lt;/div&gt;
+    &lt;div class="col-sm-8">.col-sm-8&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-sm-4 bg-info">.col-sm-4 bg-info</div>
+                                    <div class="col-sm-8 bg-info-subtle">.col-sm-8 bg-info-subtle</div>
+                                </div>
+                                <br>
+                                <h4>Основной принцип верстки макета</h4>
+
+                                <p>Основной принцип верстки макета веб-страницы на сетке Bootstrap заключается во
+                                    вкладывании одних адаптивных блоков в
+                                    другие. <br>
+                                    <br>
+                                    При этом ширина адаптивных блоков — это всегда относительная величина, которая
+                                    задаётся в колонках Bootstrap и зависит
+                                    только от ширины родителя, т.е. ряда. <br>
+                                    <br>
+                                    Размещать контент веб-страницы следует только в адаптивных блоках.
+
+                                    Для этого предварительно необходимо в блок col-6 положить ряд
+                                </p>
+
+                                <div class="w3-example"> HTML
+                                    <code>
+                                    <pre>
+&lt;div class="container"&gt;
+    &lt;div class="row"&gt;
+        &lt;div class=col-6&gt;
+             &lt;div class="row"&gt;...&lt;/div&gt;
+        &lt;div class=col-4&gt;...&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+                                </code>
+                                    </pre>
+                                </div>
+
+                                <br>
+                                <div class="container ">
+                                    <div class="row">
+                                        <div class="col-6 bg-primary">.col-6 bg-primary
+                                            <div class="row">row</div>
+                                            <div class="col-4 bg-success">.col-4 bg-success</div>
+                                        </div>
+                                    </div>
+                                    <br>
+
+                                    <p>После этого добавим 2 адаптивных блока в ряд</p>
+
+                                    <div class="w3-example"> HTML
+                                        <pre>
+                                    <code>
+&lt;div class="container"&gt;
+    &lt;div class="row"&gt;
+        &lt;div class=col-6&gt;
+            &lt;div class="row"&gt;
+                &lt;div class=col-6&gt;...&lt;/div&gt;
+                &lt;div class=col-6&gt;...&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;div class=col-4>...&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+                                    </code>
+                                    </pre>
+                                    </div>
+
+                                    <br>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-6 bg-danger">col-6 bg-danger
+                                                <div class="row">
+                                                    <div class="col-6 bg-info">col-6 bg-info.</div>
+                                                    <div class="col-6 bg-info-subtle">col-6 bg-info-subtle</div>
+                                                </div>
+                                                <div class="col-4 bg-body-secondary">col-4 bg-body-secondary</div>
+                                            </div>
+                                        </div>
+                                        <br>
+
+                                        <h4>Выравнивание адаптивных блоков</h4>
+
+                                        <p>Выравнивания адаптивных блоков в горизонтальном и вертикальном направлении
+                                            осуществляется в Bootstrap с помощью
+                                            служебных flex-классов. <br>
+                                            <br>
+                                            Вертикальное выравнивание адаптивных блоков <br>
+                                            <br>
+                                            Выравнивание адаптивных блоков в пределах линии ряда по вертикали
+                                            осуществляется посредством одного из следующих
+                                            классов, который необходимо дополнительно добавить к row:
+                                        </p>
+
+                                        <ul>
+                                            <li> <kbd>align-items-start</kbd> (относительно начала линии);</li>
+                                            <li><kbd> align-items-center </kbd> (по центру);</li>
+                                            <li><kbd> align-items-end </kbd> (относительно конца).</li>
+                                        </ul>
+
+                                        <p>Например, выровняем все адаптивные блоки по центру линии ряда:</p>
+
+                                        <div class="w3-example"> HTML
+                                            <pre>
+                                                <code>
+&lt;div class="row align-items-center"&gt;
+    &lt;div class="col bg-info"&gt; 1/2 col bg-info&lt;/div&gt;
+    &lt;div class="col bg-info-subtle"&gt; 2/2 col bg-info-subtle&lt;/div&gt;
+&lt;/div&gt;
+                                                </code>
+                                            </pre>
+                                        </div>
+
+                                        <div class="row align-items-center box">row
+                                            <div class="col-4 bg-info"> 1/2 col-5 bg-info</div>
+                                            <div class="col-4 bg-info-subtle"> 2/2 col-5 bg-info-subtle</div>
+                                        </div>
+                                        <br>
+                                        <p>По умолчанию адаптивные элементы занимают всю высоту линии ряда, в которой
+                                            они расположены. <br>
+                                            <br>
+                                            Выравнивание какого-то определённого адаптивного блока по вертикали в
+                                            пределах линии может осуществляться одним из
+                                            следующих классов:
+                                        </p>
+
+                                        <ul>
+                                            <li><kbd> align-self-start </kbd> (относительно начала линии);</li>
+                                            <li><kbd> align-self-center </kbd> (по центру);</li>
+                                            <li><kbd> align-self-end </kbd> (относительно конца).</li>
+                                        </ul>
+                                        <p>Например, выровняем второй адаптивный блок по центру линии ряда:</p>
+                                        <div class="w3-example"> HTML
+                                            <pre>
+                                                    <code>
+&lt;div class="row align-items-center"&gt;
+    &lt;div class="col"&gt; (1) &lt;/div&gt;
+    &lt;div class="col align-self-end"> (2) &lt;/div&gt;
+&lt;/div&gt;
+                                                    </code>
+                                            </pre>
+                                        </div> <br>
+
+                                        <div class="row align-items-center box">row
+                                            <div class="col-4 bg-info"> (1) col-4 bg-info</div>
+                                            <div class="col-4 align-self-end bg-info-subtle"> (2) col-4 align-self-end
+                                                bg-info-subtle</div>
+                                        </div><br>
+                                        <p>Горизонтальное выравнивание адаптивных блоков <br>
+                                            <br>
+                                            Для выравнивания адаптивных блоков в горизонтальном направлении
+                                            предназначены следующие классы:
+                                        </p>
+
+                                        <ul>
+                                            <li><kbd> justify-content-start </kbd> (относительно начала линии ряда - по
+                                                умолчанию);</li>
+                                            <li><kbd> justify-content-center </kbd> (по центру);</li>
+                                            <li><kbd> justify-content-end </kbd> (относительно конца линии).</li>
+                                            <li><kbd> justify-content-around </kbd> (равномерно, с учётом пространства
+                                                перед первым и последним адаптивным блоком);</li>
+                                            <li><kbd> justify-content-between </kbd> (равномерно, с одинаковым
+                                                пространством между адаптивными блоками).</li>
+                                        </ul>
+
+                                        <div class="w3-example"> HTML
+                                            <pre>
+                                        <code>
+&lt;div class="row justify-content-around box"&gt; row
+   &lt;div class="col-4 bg-info"&gt; (1) col-4 bg-info&lt;/div&gt;
+   &lt;div class="col-4 bg-info-subtle"&gt; (2)col-4 align-self-end bg-info-subtle&lt;/div&gt;
+&lt;/div&gt;
+                                        </code>
+                                        </pre>
+                                        </div>
+
+
+                                        <div class="row justify-content-around box"> row
+                                            <div class="col-4 bg-info"> (1) col-4 bg-info</div>
+                                            <div class="col-4 bg-info-subtle"> (2) col-4 align-self-end bg-info-subtle
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <h4>Смещение адаптивных блоков</h4>
+
+                                        <p>В Bootstrap смещение адаптивных блоков можно выполнить с помощью:</p>
+
+                                        <ul>
+                                            <li>классов <span>offset</span> (на определённое количество колонок);</li>
+                                            <li>служебных (утилитных) <span>margin</span> классов.</li>
+                                        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                                    </div>
 
                 </main>
 

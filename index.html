@@ -899,7 +899,7 @@
                                             «добавить большой верхний отступ»: <br>
                                             <br>
                                             <div class="container">
-                                                <div class="row mt-1">
+                                                <div class="row mt-1 box">
                                                     <div class="col-sm-3 pt-0 bg-info">container pt-0
                                                     </div>
 
@@ -928,7 +928,7 @@
                                         <br>
                                         <dd>
                                             <div class="container">
-                                                <div class="row mt-1">
+                                                <div class="row mt-1 box">
                                                     <div class="col-sm-3 border-1 bg-info box"> col-sm-3 border-1
                                                         bg-info box
                                                     </div>
@@ -1098,13 +1098,13 @@ HTML
                                         <h3>Три колонки одинаковой ширины</h3>
 
 
-                                        <div class="row">
-                                            <div class="col p-3 bg-primary text-white box">col p-3 bg-primary text-white
+                                        <div class="row box">
+                                            <div class="col p-3 bg-primary text-white">col p-3 bg-primary text-white
                                                 box
                                             </div>
-                                            <div class="col p-3 bg-dark text-white box">col p-3 bg-dark text-white box
+                                            <div class="col p-3 bg-dark text-white">col p-3 bg-dark text-white box
                                             </div>
-                                            <div class="col p-3 bg-primary text-white box">col p-3 bg-primary text-white
+                                            <div class="col p-3 bg-primary text-white">col p-3 bg-primary text-white
                                                 box
                                             </div>
                                         </div>
@@ -1115,14 +1115,14 @@ HTML
                                         это создаст четыре столбца одинаковой
                                         ширины.</p>
 
-                                    <div class="row">
-                                        <div class="col p-3 bg-primary text-white box">col p-3 bg-primary text-white box
+                                    <div class="row box">
+                                        <div class="col p-3 bg-primary text-white">col p-3 bg-primary text-white box
                                         </div>
-                                        <div class="col p-3 bg-dark text-white box">col p-3 bg-dark text-white box"
+                                        <div class="col p-3 bg-dark text-white">col p-3 bg-dark text-white box"
                                         </div>
-                                        <div class="col p-3 bg-primary text-white box">col p-3 bg-primary text-white box
+                                        <div class="col p-3 bg-primary text-white">col p-3 bg-primary text-white box
                                         </div>
-                                        <div class="col p-3 bg-dark text-white box">col p-3 bg-dark text-white box"
+                                        <div class="col p-3 bg-dark text-white">col p-3 bg-dark text-white box"
                                         </div>
                                     </div>
                                 </div>
@@ -1148,7 +1148,7 @@ HTML
 </pre>
                                 </div>
                                 <br>
-                                <div class="row">
+                                <div class="row box">
                                     <div class="col-sm-3  bg-primary  text-white">.col-sm-3 bg-primary text-white</div>
                                     <div class="col-sm-3 bg-dark text-white">.col-sm-3 bg-dark text-white</div>
                                     <div class="col-sm-3  bg-primary  text-white">.col-sm-3 bg-primary text-white</div>
@@ -1172,7 +1172,7 @@ HTML
 </pre>
                                 </div>
                                 <br>
-                                <div class="row">
+                                <div class="row box">
                                     <div class="col-sm-4 bg-info">.col-sm-4 bg-info</div>
                                     <div class="col-sm-8 bg-info-subtle">.col-sm-8 bg-info-subtle</div>
                                 </div>
@@ -1208,7 +1208,7 @@ HTML
 
                                 <br>
                                 <div class="container ">
-                                    <div class="row">
+                                    <div class="row box">
                                         <div class="col-6 bg-primary">.col-6 bg-primary
                                             <div class="row">row</div>
                                             <div class="col-4 bg-success">.col-4 bg-success</div>
@@ -1237,7 +1237,7 @@ HTML
 
                                     <br>
                                     <div class="container">
-                                        <div class="row">
+                                        <div class="row box">
                                             <div class="col-6 bg-danger">col-6 bg-danger
                                                 <div class="row">
                                                     <div class="col-6 bg-info">col-6 bg-info.</div>
@@ -1280,7 +1280,7 @@ HTML
                                             </pre>
                                         </div>
 
-                                        <div class="row align-items-center box">row
+                                        <div class="row align-items-center box">
                                             <div class="col-4 bg-info"> 1/2 col-5 bg-info</div>
                                             <div class="col-4 bg-info-subtle"> 2/2 col-5 bg-info-subtle</div>
                                         </div>
@@ -1310,7 +1310,7 @@ HTML
                                             </pre>
                                         </div> <br>
 
-                                        <div class="row align-items-center box">row
+                                        <div class="row align-items-center box">
                                             <div class="col-4 bg-info"> (1) col-4 bg-info</div>
                                             <div class="col-4 align-self-end bg-info-subtle"> (2) col-4 align-self-end
                                                 bg-info-subtle</div>
@@ -1344,7 +1344,7 @@ HTML
                                         </div>
 
 
-                                        <div class="row justify-content-around box"> row
+                                        <div class="row justify-content-around box">
                                             <div class="col-4 bg-info"> (1) col-4 bg-info</div>
                                             <div class="col-4 bg-info-subtle"> (2) col-4 align-self-end bg-info-subtle
                                             </div>
@@ -1358,6 +1358,112 @@ HTML
                                             <li>классов <span>offset</span> (на определённое количество колонок);</li>
                                             <li>служебных (утилитных) <span>margin</span> классов.</li>
                                         </ul>
+
+                                        <h4>Классы offset</h4>
+
+                                        <p>Классы offset предназначены для смещения адаптивных блоков вправо на
+                                            определённое количество колонок. <br>
+                                            <br>
+                                            Данные классы имеют следующий синтаксис:
+                                        </p>
+                                        <kbd> offset-{1}</kbd> или <kbd> offset-{breakpoint}-{1}</kbd>
+                                        <br>
+                                        <p><kbd>{breakpoint} </kbd>– контрольная точка, начиная с которой к данному
+                                            блоку будет применено смещение (если она не указана, то
+                                            смещение будет применено, начиная с самых крохотных устройств).</p>
+                                        <p><kbd>{1} </kbd>– величина смещения, указываемая с помощью количества колонок
+                                            Bootstrap.</p>
+                                        <br>
+                                        <div class="w3-example"> HTML
+                                            <pre>
+                                            <code>
+&lt;div class="row"&gt;
+   &lt;div class="col-4"&gt; (1) &lt;/div&gt;
+   &lt;div class="col-4 offset-4"&gt; (2) &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+   &lt;div class="col-3 offset-3"> (1) &lt;/div&gt;
+   &lt;div class="col-3 offset-3"> (2) &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+   &lt;div class="col-6 offset-3"> (1) &lt;/div&gt;
+&lt;/div&gt;
+                                            </code>
+                                            </pre>
+                                        </div>
+                                        <br>
+
+                                        <div class="row box">
+                                            <div class="col-4 bg-info"> (1) col-4 bg-info</div>
+                                            <div class="col-4 offset-4 bg-info-subtle"> (2) col-4 offset-4
+                                                bg-info-subtle</div>
+                                        </div>
+                                        <div class="row box">
+                                            <div class="col-3 offset-3 bg-info"> (1) col-3 offset-3 bg-info</div>
+                                            <div class="col-3 offset-3 bg-info-subtle"> (2) col-3 offset-3
+                                                bg-info-subtle</div>
+                                        </div>
+                                        <div class="row box">
+                                            <div class="col-6 offset-3 bg-info"> (1) col-6 offset-3 bg-info</div>
+                                        </div><br>
+
+                                        <h4>Смещение с помощью margin классов</h4>
+
+                                        <p>В четвертой версии Bootstrap устанавливать смещение адаптивным блокам также
+                                            можно с помощью margin отступов
+                                            <span>(margin-left: auto и (или) margin-right: auto)</span>. Эта вариант
+                                            смещения появился благодаря тому, что сетка в новой версии Bootstrap
+                                            основывается на CSS Flexbox. <br>
+                                            <br>
+                                            Данный вариант смещения (с помощью margin классов) используют, когда блоки
+                                            необходимо сместить относительно друг от
+                                            друга не которую переменную величину. <br>
+                                            <br>
+                                            В Bootstrap 4 для более удобного и адаптивного задания блокам margin
+                                            отступов <span>margin-left: auto и (или) margin-right:(auto)</span> можно
+                                            использовать классы <span>ml-auto, mr-auto, ml-{breakpoint}-auto и
+                                                mr-{breakpoint}-auto.</span>
+                                        </p>
+
+                                        <div class="w3-example"> HTML
+                                            <pre>
+<code>
+&lt;div class="row box"&gt;
+    &lt;div class="col-4 bg-info"&gt; (1) col-4 bg-info&lt;/div&gt;
+    &lt;div class="col-4 ml-auto bg-info-subtle"&gt; (2) col-4 ml-auto bg-info-subtle &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row box"&gt;
+    &lt;div class="col-3 bg-info"&gt; (1) col-3 bg-info&lt;/div&gt;
+    &lt;div class="col-3 ml-auto mr-auto bg-info-subtle"&gt; (2) col-3 ml-auto mr-auto bg-info-subtle&lt;/div&gt;
+    &lt;div class="col-3 bg-body-secondary"&gt; (3) col-3 bg-body-secondary&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row box"&gt;
+    &lt;div class="col-4 ml-auto mr-auto bg-info"&gt; (1) col-4 ml-auto mr-auto bg-info&lt;/div&gt;
+    &lt;div class="col-4 ml-auto mr-auto bg-info-subtle"&gt; (2) col-4 ml-auto mr-auto bg-info-subtle&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+                                        </div>
+
+                                        <div class="row box">
+                                            <div class="col-4 bg-info"> (1) col-4 bg-info</div>
+                                            <div class="col-4 ml-auto bg-info-subtle"> (2) col-4 ml-auto bg-info-subtle
+                                            </div>
+                                        </div>
+                                        <div class="row box">
+                                            <div class="col-3 bg-info"> (1) col-3 bg-info</div>
+                                            <div class="col-3 ml-auto mr-auto bg-info-subtle"> (2) col-3 ml-auto mr-auto
+                                                bg-info-subtle</div>
+                                            <div class="col-3 bg-body-secondary"> (3) col-3 bg-body-secondary</div>
+                                        </div>
+                                        <div class="row box">
+                                            <div class="col-4 ml-auto mr-auto bg-info"> (1) col-4 ml-auto mr-auto
+                                                bg-info</div>
+                                            <div class="col-4 ml-auto mr-auto bg-info-subtle"> (2) col-4 ml-auto mr-auto
+                                                bg-info-subtle</div>
+                                        </div>
+
+
 
 
 

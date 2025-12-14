@@ -62,19 +62,19 @@ body {
 
 @media screen and (max-width: 960px) {
   body {
-    background-color: red;
+    background-color: rgb(0, 255, 242);
   }
 } /*При максимальной ширине 960px цвет меняется на красный*/
 
 @media screen and (max-width: 768px) {
   body {
-    background-color: orange;
+    background-color: rgb(0, 255, 136);
   }
 } /*При ширине 768px цвет меняется на оранжевый*/
 
 @media screen and (max-width: 550px) {
   body {
-    background-color: yellow;
+    background-color: rgb(102, 255, 0);
   }
 } /*При ширине 550px цвет меняется на желтый*/
 
@@ -137,7 +137,7 @@ section {
 
 span {
   font-size: 18px;
-  color: #d13708;
+  color: #f03c06;
   background: var(--colorSpan);
 }
 .spanR {
@@ -269,4 +269,11 @@ table {
   padding: 0.01em 16px;
   margin: 10px 0;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+}
+.content {
+  grid-template-columns: 1.15fr 3fr;
+  gap: 3rem;
+}
+.posts-container {
+  max-width: 760px;
 }

@@ -404,7 +404,7 @@ blockquote p:last-child {
 }
 
 /* 2 */
-table {
+/* table {
   font-size: 0.875rem;
 }
 table tbody {
@@ -413,14 +413,14 @@ table tbody {
 .content {
   grid-template-columns: 1.15fr 3fr;
   gap: 3rem;
-}
+} */
 .posts-container {
   max-width: 760px;
 }
 .bd-gutter {
   --bs-gutter-x: 3rem;
 }
-.page,
+/* .page,
 .post {
   margin-bottom: 4em;
 }
@@ -451,12 +451,12 @@ table tbody {
   .post .h2 {
     font-size: 1.75rem;
   }
-}
-.post h3,
+} */
+/* .post h3,
 .post .h3 {
   margin-top: 1.5rem;
-}
-.post > h1,
+} */
+/* .post > h1,
 .post > .h1,
 .post > h2,
 .post > .h2,
@@ -465,8 +465,8 @@ table tbody {
 .post > h4,
 .post > .h4 {
   color: var(--bs-emphasis-color);
-}
-.related {
+} */
+/* .related {
   padding-top: 3rem;
   padding-bottom: 2rem;
   border-top: 1px solid var(--bs-border-color);
@@ -480,4 +480,4 @@ table tbody {
 }
 .bd-text-purple {
   color: var(--bd-violet);
-}
+} */
